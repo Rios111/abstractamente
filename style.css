@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'monserrat';
+    src: url(./fonts/Montserrat-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'lora';
+    src: url(./fonts/Lora-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'hind';
+    src: url(./fonts/HindMadurai-Light.ttf);
+}
+
+
+.ss2{
+    background-color: #09A3A9;
+}
+
+body{
+    background: lightblue;
+}
+
+.met{
+    margin-top: 15rem;
+}
+
+
+
+.meb{
+    margin-bottom: 20rem;
+}
+
+.meet{
+    margin-top: 18rem;
+}
+
+.meet3{
+    margin-top: 35rem;
+}
+
+.meeet{
+    margin-bottom: 10rem;
+}
+
+.bc{
+    background-color: #09A3A9;
+}
+
+.meeb{
+    margin-bottom: 10rem;
+}
+
+
+
+#cara{
+    opacity: 0;
+    transition-duration: 2s;
+}
+.carru{
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+.izq{
+    margin-left: 6rem;
+}
+
+.tarjeta{
+    margin-top: 100px;
+    transition-duration: 2s;
+    opacity: 0;
+}
+
+#img1{
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+#img2{
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+.fot{
+    margin-top: 200px;
+    transition-duration: 2s;
+    opacity: 0;
+} 
+
+.juega:hover{
+    text-decoration:underline;
+
+}
+.ayuda:hover{
+    text-decoration:underline;
+
+}
+.nosotros:hover{
+    text-decoration:underline;
+
+}
+
+.log:hover{
+    transition-duration: .5s;
+    opacity: 50%;
+
+}
+
+.mt-7{
+    margin-top: 9rem;
+}
+
+/* @media screen and (max-width: 992px) { 
+   
+    .uno{
+        gap: 3rem;
+    }
+}
+ */
+
+
+
+@media screen and (max-width: 768px) { 
+    
+
+    .uno{
+        gap: 3rem;
+        text-align: center;
+        
+        
+    }
+
+    .cua{
+        margin-top: 2rem;
+    }
+
+    .cara{
+        display: flex;
+    }
+
+    .but{
+        display: flex;
+        justify-content: center;
+    }
+
+    .whe{
+        font-size: 1px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+    
+    .uno{
+        gap: 3rem;
+        text-align: center;
+        
+    }
+
+    .cara{
+        display: none;
+    }
+    
+    .but{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .whe{
+        font-size: 1px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 0px){
+   
+    .t1{
+        text-align: center;
+    }
+
+    .imag{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 2400px) and (min-width: 768px){
+   
+    #img1{
+        position: relative;
+        top: -3rem;
+        left: 6rem;
+        height: 350px;
+        width: 250px;
+    }
+
+    #img2{
+        position: relative;
+        top: 2rem;
+        left: 1rem;
+        height: 350px;
+        width: 250px;
+    }
+    
+}
+
+
+
+.opa{
+    opacity: 40%;
+}
+
+
+
+
+
+
+
+
+
+/* el mediascreen es me mayor a menor y los breakpoints de bootstrap es de menor a mayor  */
+
