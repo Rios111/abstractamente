@@ -13,20 +13,28 @@
     src: url(./fonts/HindMadurai-Light.ttf);
 }
 
+* {
+    -moz-box-sizing: inherit;
+         box-sizing: inherit;
+    -webkit-transition-property: all;
+            transition-property: all;
+    -webkit-transition-duration: .6s;
+            transition-duration: .6s;
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+  }
+
+  body{
+      background: lightblue;
+}
 
 .ss2{
     background-color: #09A3A9;
 }
 
-body{
-    background: lightblue;
-}
-
 .met{
     margin-top: 15rem;
 }
-
-
 
 .meb{
     margin-bottom: 20rem;
@@ -52,16 +60,18 @@ body{
     margin-bottom: 10rem;
 }
 
-
-
 #cara{
     opacity: 0;
     transition-duration: 2s;
+    margin-top: 200px;
 }
+
 .carru{
     opacity: 0;
     transition-duration: 2s;
-}
+    transform: scale(0);
+    margin-top: 200px;
+} 
 
 .izq{
     margin-left: 6rem;
@@ -71,14 +81,9 @@ body{
     margin-top: 100px;
     transition-duration: 2s;
     opacity: 0;
-}
+} 
 
-#img1{
-    opacity: 0;
-    transition-duration: 2s;
-}
-
-#img2{
+.tuu{
     opacity: 0;
     transition-duration: 2s;
 }
@@ -87,16 +92,18 @@ body{
     margin-top: 200px;
     transition-duration: 2s;
     opacity: 0;
-} 
+}  
 
 .juega:hover{
     text-decoration:underline;
 
 }
+
 .ayuda:hover{
     text-decoration:underline;
 
 }
+
 .nosotros:hover{
     text-decoration:underline;
 
@@ -112,6 +119,89 @@ body{
     margin-top: 9rem;
 }
 
+.opa{
+    opacity: 40%;
+}
+
+.text_uno{
+    margin-top: 200px;
+    opacity: 0;
+    transition-duration: 1s;
+} 
+
+.btnfos {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    max-width: 160px;
+    position: relative;
+    width: 100%;
+    font-family: 'monserrat';
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnfos-1 {
+    font-weight: 100;
+}
+
+.btnfos-1 svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 45px;
+}
+
+.btnfos-1 rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1;
+    stroke-dasharray: 422, 0;
+}
+  
+.btnfos-1:hover {
+    background: rgba(255, 255, 255, 0);
+    letter-spacing: 1px;
+    font-weight: 900;
+    transition-duration: .6s;
+    color: #fff;
+}
+
+.btnfos-1:hover rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition-duration: .6s;   
+    -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+  
+
+
+/* /////////////////////////////////// */
+
+/* .traa{
+    opacity: 0;
+    transition-duration: 2s; 
+    transform: scale(0);
+
+} */
+
+/*  #img1{
+    opacity: 0;
+    transition-duration: 2s;
+}  */
+
+/* #img2{
+    opacity: 0;
+    transition-duration: 2s;
+} */
+
+
 /* @media screen and (max-width: 992px) { 
    
     .uno{
@@ -121,7 +211,7 @@ body{
  */
 
 
-
+/* 
 @media screen and (max-width: 768px) { 
     
 
@@ -134,6 +224,7 @@ body{
 
     .cua{
         margin-top: 2rem;
+        
     }
 
     .cara{
@@ -150,9 +241,9 @@ body{
     }
 
 
-}
+} */
 
-
+/* 
 @media screen and (max-width: 576px) {
     
     .uno{
@@ -174,9 +265,9 @@ body{
         font-size: 1px;
     }
     
-}
+} */
 
-
+/* 
 @media screen and (max-width: 768px) and (min-width: 0px){
    
     .t1{
@@ -188,7 +279,8 @@ body{
     }
     
 }
-@media screen and (max-width: 2400px) and (min-width: 768px){
+*/
+/* @media screen and (max-width: 2400px) and (min-width: 768px){
    
     #img1{
         position: relative;
@@ -206,21 +298,32 @@ body{
         width: 250px;
     }
     
-}
+} */
 
+/*  .t1{
+    margin-top: 100px;
+    opacity: 0;
+    transition-duration: 1s;
+}  */
 
+/* 
+@media (min-width: 400px) {
+    .btnfos {
+      display: inline-block;
+      margin-right: 2.5em;
+    }
+    .btnfos:nth-of-type(even) {
+      margin-right: 0;
+    }
+  }
+  @media (min-width: 600px) {
+    .btnfos:nth-of-type(even) {
+      margin-right: 2.5em;
+    }
+    .btnfos:nth-of-type(5) {
+      margin-right: 0;
+    }
+  } */
 
-.opa{
-    opacity: 40%;
-}
-
-
-
-
-
-
-
-
-
-/* el mediascreen es me mayor a menor y los breakpoints de bootstrap es de menor a mayor  */
+  /* el mediascreen es me mayor a menor y los breakpoints de bootstrap es de menor a mayor  */
 

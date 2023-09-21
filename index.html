@@ -6,13 +6,420 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
-  <section style="background-color: #09A3A9; margin-bottom: -1rem;" class="ss1 position-relative bg-blue">
+
+  <div style="background: rgb(2,0,36); background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 36%, rgba(1,127,167,1) 36%);"></div>
+
+  <section style="background-color: #09A3A9;">
+    <div style="margin-bottom: -1rem;" class="container text-center ss1 position-relative bg-blue">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg bg-blue navbar-dark">
+            <div class="container-xxl">
+              <a class="navbar-brand mx-3 log" href="#"><img style="width: 200px;" src="./image/logo.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse px-1" id="navbarNav">
+                <ul style="font-family: 'monserrat';" class="gap-4 navbar-nav ms-auto text-white">
+
+                  <li class="nav-item juega">
+                    <a href="#seccion1" class="nav-link text-white">Juega</a>
+                  </li>
+                  <li class="nav-item ayuda">
+                    <a class="nav-link text-white" href="#s44">Ayuda</a>
+                  </li>
+                  <li class="nav-item nosotros">
+                    <a class="nav-link text-white" href="#s55">Nosotros</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top: 5rem; background-color: #09A3A9;">
+    <div class="container">
+      <div style="height: 400px;" class="row">
+        <div class="col">
+          <div class="text_uno">
+            <div class="col text-sm-center text-md-start text-lg-start text-xl-start                  d-flex flex-column gap-4 text-white py-3 "
+              id="content">
+              <h1 style="font-family: 'monserrat';" class="text-white">Aprende mucho más con <br> abstractamente.</h1>
+              <p style="font-family: 'hind';" class="text-white">Es un innovador juego que busca crear conciencia
+                sobre la esquizofrenia y así conseguir que el jugador experimente virtualmente como es vivir con una
+                enfermedad mental</p>
+              <div class="d-sm-flex justify-content-sm-center  justify-content-md-start ustify-content-lg-start ustify-content-xl-start    ">
+                <a href="" class="btnfos btnfos-1">
+                  <svg>
+                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                  </svg>
+                  Juega Ya
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none col d-sm-none d-md-block ">
+          <div style="display: flex; justify-content: center;">
+            <img class="img-fluid" style="height: 600px; width: 70%; position: relative; top: -6rem;"
+              src="./image/caras.svg" id="cara" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="margin-top: -1rem;" class="col-12">
+    <img width="100%" src="./image/bg11.svg" alt="" id="gog">
+  </div>
+
+  <section style="margin-bottom: 5rem;" class="traa">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div style="margin-top: 5rem;" class="perso">
+            <h1 style="color: black; font-family: monserrat; " id="s4" class="fs-1 text-center">Personajes</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-bottom: 8rem;" class="carru">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div style="display: flex ; justify-content: center;" class="">
+            <div style="height: 50%; width: 30%;" id="carouselExampleDark" class="carousel carousel-dark slide"
+              data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="./image/andrea.svg" class="d-block w-100" alt="...">
+                  <div style=" margin-bottom: 3rem; margin-top: 1rem; text-align: center; font-family: 'hind';">
+                    <p style="font-size: 20px">Andrea es una chica de 19 años que le gustan muchos los videojuegos,
+                      padece del trastorno de la esquizofrenia, esta enfermedad se le empezó a desarrollar desde la
+                      muerte de su hermano la cual le dejó un gran trauma.</p>
+                  </div>
+
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./image/damien.svg" class="d-block w-100" alt="...">
+                  <div style="margin-bottom: 3rem; margin-top: 1rem; text-align: center; font-family: 'hind';" class="">
+                    <p style="font-size: 20px">Damien es un hombre con una estatura de 1.80 metros, es residente de un
+                      hospital psiquiátrico en el cual está atrapado hace mucho tiempo. Tiene un buen sentido del humor
+                      y es muy amistoso con las personas. </p>
+                  </div>
+
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/jeremy.svg" class="d-block w-100" alt="...">
+                  <div style="margin-bottom: 3rem; margin-top: 1rem; text-align: center; font-family: 'hind';" class="">
+                    <p style="font-size: 20px">Black es el director de un hospital mental, mide 1.80 metros, su edad es
+                      de 30 años, es de caracter fuerte, es muy ambicioso, no le importa el bienestar de los demas para
+                      el es más importante el dinero que generan sus pacientes.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span style="margin-bottom: 176px; filter:saturate(200);" class="carousel-control-prev-icon"
+                  aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span style="margin-bottom: 176px; filter:saturate(200);" class="carousel-control-next-icon"
+                  aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="margin-bottom: -2rem;" id="back2">
+    <img width="100%" src="./image/bg22.svg" alt="">
+  </div>
+
+  <section style="background-color: #09A3A9; padding-bottom: 3rem; " class="ss4" id="s44">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div>
+            <h1 style="font-family: monserrat; " id="s4" class="fs-1 text-center bg-blue text-white">¿Cuándo buscar
+              ayuda?</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-top: -1rem; padding-bottom: 5rem; background-color: #09A3A9; " >
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div
+            class=" d-flex flex-column justify-content-center align-items-center bg-white pt-4 h-100 rounded-5 tarjeta">
+            <img class="mb-3 img-fluid" style="width: 150px;" src="./image/alucinacion.svg" alt="">
+            <h2 style="font-family: 'lora'; font-size: 20px;" class="text-center">Alucinaciones y delirios</h2>
+            <p style="font-family: 'hind';" class="text-center">Si la persona experimenta <br> alucinaciones debe buscar
+              <br> ayuda médica.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="d-flex flex-column align-items-center bg-white pt-4 h-100 rounded-5 tarjeta">
+            <img class="mb-3 img-fluid" style="width: 150px;" src="./image/sintomas.svg" alt="">
+            <h2 style="font-family: 'lora'; font-size: 20px;" class="text-center">Síntomas muy duraderos</h2>
+            <p style="font-family: 'hind';" class="text-center"> Si los síntomas persisten <br>es importante buscar <br>
+              ayuda.
+            </p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center || bg-white pt-4 h-100 rounded-5 tarjeta">
+            <img class="mb-3 img-fluid" style="width: 150px;" src="./image/cambio.svg" alt="">
+            <h2 style="font-family: 'lora'; font-size: 20px;" class="text-center">Cambio en el Autocuidado</h2>
+            <p style="font-family: 'hind';" class="text-center"> Si la persona descuida su <br> higiene personal, se
+              debería <br> buscar ayuda.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div style="margin-top: -1rem; margin-bottom: 8rem;">
+    <img width="100%" src="./image/bg333.svg" alt="">
+  </div>
+
+  <section style="margin-bottom: 5rem;" class="ss5" id="s55">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="tuu" class="col text-sm-center text-md-start text-lg-start text-xl-start tu">
+            <h1 style="font-family: 'monserrat'; ">Abstractamente</h1>
+            <p class="index" style="font-family: 'hind';">Es un proyecto que busca inspirar la empatía y compresión
+              hacia las personas que padecen de esquizofrenia con el objetivo de que los usuarios experimenten
+              virtualmente como es vivir con esta enfermedad.
+            </p>
+          </div>
+        </div>
+        <div class="d-none col d-sm-none d-md-block ">
+          <div style="display: flex; justify-content: center;" class="">
+            <img id="img1" width="70%" class="img-fluid opa rounded-circle" src="./image/m-n-h.jpg" alt="">
+            <!--  <img style="position: relative; top: 2rem; left: 1rem; height: 350px; width: 250px;" id="img2" class="img-fluid opa" src="./image/h-n.jpg" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ss5 bc fot"">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <footer class="text-center text-lg-start bg-light text-muted">
+            <section style="font-family: 'hind';" class="bc pt-2 pb-2 text-white">
+              <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      <i class="fas fa-gem me-3"></i>Abstractamente
+                    </h6>
+                    <p>
+                      Un proyecto sin ánimo de lucro es una iniciativa que se lleva a cabo con el objetivo de
+                      beneficiar a la
+                      sociedad o a un grupo específico de personas sin buscar obtener ganancias financieras.
+                    </p>
+                  </div>
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Redes sociales
+                    </h6>
+                    <p>
+                      <a href="#!" class="text-reset text-decoration-none"><i class="bi bi-instagram">
+                          Ab.stractamente</i></a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset text-decoration-none"><i class="bi bi-facebook">
+                          Abstractamente</i></a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset text-decoration-none"><i class="bi bi-youtube">
+                          Abstractamente</i> </a>
+                    </p>
+                  </div>
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                    <p><i class="fas fa-home me-3"></i> Maracaibo, Venezuela</p>
+                    <p>
+                      <i class="fas fa-envelope me-3"></i>
+                      Abstractamente777@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> +57 310 7882343</p>
+                    <p><i class="fas fa-print me-3"></i> +57 300 3456454</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- //////////////////////////////////////////////// -->
+
+  <!--   <section style="margin-bottom: 5rem;" class="ss5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="d-flex">
+            <div class="col-lg-6 tct">
+              <div class=" t1">
+                <h1 style="font-family: 'monserrat'; ">Abstractamente</h1>
+                <p class="index" style="font-family: 'hind';">Es un proyecto que busca inspirar la empatía y compresión
+                hacia las personas que padecen de esquizofrenia con el objetivo de que los usuarios experimenten virtualmente como es vivir con esta enfermedad.
+                </p>
+              </div>
+            </div>
+            <div class="col imag ">
+              <div style="min-width: 505px;" class="m">
+                <img id="img1" class="img-fluid opa" src="./image/m-n-h.jpg" alt="">
+                <img id=img2 class="img-fluid opa" src="./image/h-n.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  -->
+
+  <!-- <section>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div style="display: flex ; justify-content: center;" class="col-12 mt-4 mb-5 pe-0 mx-0 tra">
+            <div style="height: 50%; width: 30%;" id="carouselExampleDark" class="carousel carousel-dark slide carru"
+              data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="./image/andrea.svg" class="d-block w-100" alt="">
+                  <div style=" margin-bottom: 3rem; margin-top: 1rem; text-align: center; font-family: 'hind';"
+                    class="">
+                    <p style="font-size: 20px">Andrea es una chica de 19 años que le gustan muchos los videojuegos,
+                      padece del trastorno de la esquizofrenia, esta enfermedad se le empezó a desarrollar desde la
+                      muerte de su hermano la cual le dejó un gran trauma.</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./image/damien.svg" class="d-block w-100" alt="...">
+                  <div style="margin-bottom: 3rem; margin-top: 1rem; text-align: center; font-family: 'hind';" class="">
+                    <p style="font-size: 20px">Damien es un hombre con una estatura de 1.80 metros, es residente de un
+                      hospital psiquiátrico en el cual está atrapado hace mucho tiempo. Tiene un buen sentido del humor
+                      y es muy amistoso con las personas. </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/jeremy.svg" class="d-block w-100" alt="...">
+                  <div style="margin-bottom: 3rem; margin-top: 1rem; text-align: center; font-family: 'hind';" class="">
+                    <p style="font-size: 20px">Black es el director de un hospital mental, mide 1.80 metros, su edad es
+                      de 30 años, es de caracter fuerte, es muy ambicioso, no le importa el bienestar de los demas para
+                      el es más importante el dinero que generan sus pacientes.</p>
+                  </div>
+                </div>
+              </div>
+              <button style="margin-bottom: 10rem;" class="carousel-control-prev" type="button"
+                data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button style="margin-bottom: 10rem;" class="carousel-control-next" type="button"
+                data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active d-flex justify-content-center">
+                <img src="./image/andrea.svg" class="d-block w-25" alt="...">
+                <p></p>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/damien.svg" class="d-block w-25" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/jeremy.svg" class="d-block w-25" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section> 
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--  <section style="background-color: #09A3A9; margin-bottom: -1rem;" class="ss1 position-relative bg-blue">
     <div class="container">
       <div class="row pb-5">
         <div class=" col-12">
@@ -49,7 +456,6 @@
 
 
   </section>
-  <!-- lg-col-6 md-col-6 sm-col-12 -->
   <section class="ss2" id="seccion1">
     <div class="container">
       <div class="row">
@@ -61,26 +467,32 @@
                     <h1 style="font-family: 'monserrat';" class="text-white">Aprende mucho más con <br> abstractamente.</h1>
                     <p style="font-family: 'hind';" class="text-white">Es un innovador juego que busca crear conciencia
                     sobre la esquizofrenia y así conseguir que el jugador experimente virtualmente como es vivir con una enfermedad mental</p>
-                  <div class="d-flex gap-4 align-items-center but">
-                    <button style="font-family: 'monserrat';" class="bg-white   btn btn-light rounded-5">Jugar
-                    Ahora</button>
-                    <a class="text-white decoration fw-bold ">Saber Más</a>
+                    <div class="d-flex gap-4 align-items-center but">
+                    
+                    <a href="" class="btnfos btnfos-1">
+                      <svg>
+                        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                      </svg>
+                     Juega Ya
+                    </a> 
                   </div>
                 </div>
               </div> 
             </div>
 
             <div class="col-lg-6 col-md-6">
-                <img class="img-fluid" style="height: 600px; width: 80%;" src="./image/caras.svg" id="cara" alt="">
+               <div style="display: flex; justify-content: center;">
+                <img class="img-fluid" style="height: 600px; width: 70%; position: relative; top: -6rem;" src="./image/caras.svg" id="cara" alt="">
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
   </section>
 
+  
+  
   <div style="margin-top: -1rem;" class="col-12">
     <img src="./image/bg11.svg" alt="">
   </div>
@@ -89,7 +501,20 @@
       <div class="row">
         <div class="col-12">
           <div>
-            <div style="display: flex ; justify-content: center;" class="col-12 mt-4 mb-5 pe-0 mx-0">
+            <section style=" margin-bottom: -1rem;" class="ss4 traa">
+             <div class="container">
+               <div class="row">
+                 <div class="col-12">
+                   <div class="mt-5 mb-2">
+                       <h1 style="color: black; font-family: monserrat; " id="s4" class="fs-1 text-center">
+                         Personajes</h1>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </section>
+
+            <div style="display: flex ; justify-content: center;" class="col-12 mt-4 mb-5 pe-0 mx-0 tra">
               <div style="height: 50%; width: 30%;" id="carouselExampleDark" class="carousel carousel-dark slide carru" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -99,38 +524,34 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
                     <img src="./image/andrea.svg" class="d-block w-100" alt="">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5></h5>
-                      <p></p>
+                    <div style=" margin-bottom: 3rem; margin-top: 1rem; text-align: center; font-family: 'hind';" class="">
+                      <p style="font-size: 20px">Andrea es una chica de 19 años que le gustan muchos los videojuegos, padece del trastorno de la esquizofrenia, esta enfermedad se le empezó a desarrollar desde la muerte de su hermano la cual le dejó un gran trauma.</p>
                     </div>
-                    <h1></h1>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
                     <img src="./image/damien.svg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5></h5>
-                      <p></p>
+                    <div style="margin-bottom: 3rem; margin-top: 1rem; text-align: center; font-family: 'hind';" class="">
+                      <p style="font-size: 20px">Damien es un hombre con una estatura de 1.80 metros, es residente de un hospital psiquiátrico en el cual está atrapado hace mucho tiempo. Tiene un buen sentido del humor y es muy amistoso con las personas. </p>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="./image/jeremy.svg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5></h5>
-                      <p></p>
+                    <div style="margin-bottom: 3rem; margin-top: 1rem; text-align: center; font-family: 'hind';" class="">
+                      <p style="font-size: 20px">Black es el director de un hospital mental, mide 1.80 metros, su edad es de 30 años, es de caracter fuerte, es muy ambicioso, no le importa el bienestar de los demas para el es más importante el dinero que generan sus pacientes.</p>
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <button style="margin-bottom: 10rem;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <button style="margin-bottom: 10rem;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+              </div> -->
 
-                <!-- <div class="carousel-inner">
+  <!-- <div class="carousel-inner">
                   <div class="carousel-item active d-flex justify-content-center">
                     <img src="./image/andrea.svg" class="d-block w-25" alt="...">
                     <p></p>
@@ -153,16 +574,16 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div> -->
-            </div>
+  <!-- </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-  </section>
+  <!--  </section> -->
 
 
-  <div style="margin-bottom: -2rem;">
+  <!-- <div style="margin-bottom: -2rem;">
     <img src="./image/bg22.svg" alt="">
   </div>
 
@@ -189,7 +610,7 @@
         <div class="col-12">
           <div class="row d-flex justify-content-center ">
             
-              <div class="col-6 col-sm-6 col-md-4">
+              <div class="col-4 col-sm-6 mt-sm-5 col-md-4">
                 <div class=" d-flex flex-column justify-content-center align-items-center bg-white pt-4 h-100 rounded-5 tarjeta">
                     <img class="mb-3 img-fluid" style="width: 150px;" src="./image/alucinacion.svg" alt="">
                     <h2 style="font-family: 'lora'; font-size: 20px;" class="text-center">Alucinaciones y delirios</h2>
@@ -198,7 +619,7 @@
               </div>
 
 
-              <div class="col-6 col-sm-6 col-md-4">
+              <div class="col-4 col-sm-6 mt-sm-5 col-md-4">
                 <div class="d-flex flex-column align-items-center bg-white pt-4 h-100 rounded-5 tarjeta">
                   <img class="mb-3 img-fluid" style="width: 150px;" src="./image/sintomas.svg" alt="">
                   <h2 style="font-family: 'lora'; font-size: 20px;" class="text-center">Síntomas muy duraderos</h2>
@@ -208,7 +629,7 @@
               </div>
 
 
-              <div class="col-6 col-sm-6 col-md-4 cua">
+              <div style="margin-bottom: 2rem;" class="col-4 col-sm-6 mt-sm-5 col-md-4 cua">
                 <div class="d-flex flex-column align-items-center justify-content-center || bg-white pt-4 h-100 rounded-5 tarjeta">
                   <img class="mb-3 img-fluid" style="width: 150px;" src="./image/cambio.svg" alt="">
                   <h2 style="font-family: 'lora'; font-size: 20px;" class="text-center">Cambio en el Autocuidado</h2>
@@ -247,8 +668,8 @@
                 </p>
               </div>
             </div>
-            <div class="imag">
-              <div class="">
+            <div class="col-lg-6 imag ">
+              <div style="min-width: 505px;" class="m">
                 <img id="img1" class="img-fluid opa" src="./image/m-n-h.jpg" alt="">
                 <img id=img2 class="img-fluid opa" src="./image/h-n.jpg" alt="">
               </div>
@@ -257,9 +678,8 @@
         </div>
       </div>
     </div>
-    
-  </section>
-  
+  </section> -->
+
   <!-- <div class="col-lg-6 index">
     <div class="d-flex flex-column gap-5">
       <div class="col-12 col-sm-12 t1 text-center">
@@ -278,98 +698,6 @@
   </div> -->
 
 
-  <section class="ss5 bc fot">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="bc ">
-
-            <!-- Footer -->
-            <footer class="text-center text-lg-start bg-light text-muted">
-
-
-              <!-- Section: Links  -->
-              <section style="font-family: 'hind';" class="bc pt-2 pb-2 text-white">
-                <div class="container text-center text-md-start mt-5">
-                  <!-- Grid row -->
-                  <div class="row mt-3">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                      <!-- Content -->
-                      <h6 class="text-uppercase fw-bold mb-4">
-                        <i class="fas fa-gem me-3"></i>Abstractamente
-                      </h6>
-                      <p>
-                        Un proyecto sin ánimo de lucro es una iniciativa que se lleva a cabo con el objetivo de
-                        beneficiar a la
-                        sociedad o a un grupo específico de personas sin buscar obtener ganancias financieras.
-                      </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                      <!-- Links -->
-                      <h6 class="text-uppercase fw-bold mb-4">
-                        Redes sociales
-                      </h6>
-                      <p>
-                        <a href="#!" class="text-reset text-decoration-none"><i class="bi bi-instagram">
-                            Ab.stractamente</i></a>
-                      </p>
-                      <p>
-                        <a href="#!" class="text-reset text-decoration-none"><i class="bi bi-facebook">
-                            Abstractamente</i></a>
-                      </p>
-                      <p>
-                        <a href="#!" class="text-reset text-decoration-none"><i class="bi bi-youtube">
-                            Abstractamente</i> </a>
-                      </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                      <!-- Links -->
-                      <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-                      <p><i class="fas fa-home me-3"></i> Maracaibo, Venezuela</p>
-                      <p>
-                        <i class="fas fa-envelope me-3"></i>
-                        Abstractamente777@gmail.com
-                      </p>
-                      <p><i class="fas fa-phone me-3"></i> +57 310 7882343</p>
-                      <p><i class="fas fa-print me-3"></i> +57 300 3456454</p>
-                    </div>
-                    <!-- Grid column -->
-                  </div>
-                  <!-- Grid row -->
-                </div>
-              </section>
-              <!-- Section: Links  -->
-
-
-
-            </footer>
-            <!-- Footer -->
-
-
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-  </section>
-
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
@@ -385,7 +713,7 @@
 
 
 
-    <!--  <section style="background-color: #09A3A9; margin-top: -2rem; padding-bottom: 2rem;" class="">
+<!--  <section style="background-color: #09A3A9; margin-top: -2rem; padding-bottom: 2rem;" class="">
        <div class="container">
          <div class="row">
            <div class="col-12">
